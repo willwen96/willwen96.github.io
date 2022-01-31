@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>我的个人网站</title>
+  <link rel="stylesheet" type="text/css" href="style1.css"/>
+</head>
+<body>
+<div class="home">
+  <div class="content">
+    <div class="stars"></div>
+    <img class="bgc" src="./img/ff.jpeg" width="100%" alt="">
+    <h3 class="title">欢迎来到Will Wen的个人网站</h3>
+    <h3 class="titles">今天也要加油鸭</h3>
+    <img class="icon" src="./img/arrow.png" alt="">
+    <div class='ribbon'>
+      <a href='./index.html'><span>主页</span></a>
+      <a href='./about.html'><span>关于我</span></a>
+      <a href='./skill.html'><span>技能</span></a>
+
+    </div>
+
+  </div>
+  <h6 align="right" >
+    <a href='./index.html'>中文</a> / <a href='./indexE.html'>English</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+  </h6>
+
+  <div class="icons">
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/hall.jpeg" alt="">
+      <span>Geisel图书馆是我们每天必去取经之地</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/64.jpeg" alt="">
+      <span>每天都要在食堂里面纠结到底吃什么</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/view.jpeg" alt="">
+      <span>可以在Canyon Vista晒晒太阳的小山坡</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/housing.jpeg" alt="">
+      <span>忙碌的一天后爬上小床跟世界说晚安</span>
+    </div>
+  </div>
+  <div class="introduce">
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/Boston.PNG" alt="">
+      <span class="introduce_item_title">19年的一次波士顿之旅，看到了迷人的风景，见到了心仪的大学，更是见到了许久未见的好朋友们。</span>
+
+    </div>
+    <div class="introduce_item">
+
+      <span class="introduce_item_titles">19年暑期，来到台湾的第一天就幸运地看到了美丽的晚霞，并用相机留下这美好的时刻。</span>
+      <img class="introduce_item_img" src="./img/Taiwan.jpg" alt="">
+    </div>
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/Yunnan.jpeg" alt="">
+      <span class="introduce_item_title">20年的云南游有些仓促，但是也是一场难忘的视觉盛宴。</span>
+    </div>
+    <div class="introduce_item">
+      <span class="introduce_item_titles">在ucsd主场参加的魔方比赛，很荣幸能够进入17秒大关，过程的紧张刺激至今仍然记忆犹新。</span>
+      <img class="introduce_item_img" src="./img/Rubik's.jpg" alt="">
+    </div>
+  </div>
+  <audio autoplay="autoplay" id="audio" loop="loop">
+    <source src="./video/again.mp3" type="audio/MP3">
+  </audio>
+  <img class="music_img" src="./img/music_logo.png" alt="">
+</div>
+
+</body>
+<script>
+    let music = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            music.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
