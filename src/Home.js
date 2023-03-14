@@ -24,7 +24,7 @@ function Home () {
                 <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="home" className="flex_row wrapper">
-                <img id="img1" src={process.env.PUBLIC_URL + '/my_photo.png'} alt="A photo of me drinking water" width="400" height="324"/>
+                <img id="img1" src={process.env.PUBLIC_URL + '/my_photo.png'} alt="Me drinking water" width="400" height="324"/>
                 <aside style={{ margin: 'auto' }}>
                     <h1 id="title">Hi 👋🏻 I am Junhui (Will) Wen</h1>
                     <span id="intro">

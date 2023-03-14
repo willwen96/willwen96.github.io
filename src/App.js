@@ -75,7 +75,7 @@ function App() {
     return (
         <div>
             <BrowserRouter>
-                <Header style={"z-index: 10"} />
+                <Header style={{zIndex: "10"}} />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/skills" element={<Skills />} />
