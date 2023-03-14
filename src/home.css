@@ -1,0 +1,103 @@
+@font-face {
+    font-family: work-sans;
+    src: url('/public/WorkSans/WorkSans-Light.woff');
+}
+#Home #img1 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+#Home #title {
+    padding-left: 7%;
+    font-size: 1.8rem;
+}
+#Home #icons {
+    padding-left: 7%;
+    margin-top: 7%;
+}
+#Home #icons a {
+    margin: 0 15px;
+}
+#Home {
+    overflow-x: hidden;
+    min-height: 100%;
+    height: auto;
+}
+#Home button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+#Home button:hover, #Home button:focus {
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    color: #54b3d6;
+}
+#Home #home_button {
+    flex-direction: row;
+}
+#Home #intro {
+    font-size: 17px;
+    line-height: 125%;
+    font-family: work-sans, Times, serif;
+    color: #636363;
+    padding-left: 7%;
+    font-weight: 500;
+    width: 60ch;
+    display: flex;
+}
+#Home #home {
+    padding-top: 17vh;
+}
+/*nav > a {*/
+/*    visibility: visible;*/
+/*}*/
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    #Home #home {
+        padding-top: 15vh;
+    }
+    #Home #intro {
+        width: 50ch;
+        max-width: 90%;
+    }
+    #Home #img1 {
+        width: 360px;
+        height: 286px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #Home #intro {
+        width: 35ch;
+        max-width: 75vw;
+    }
+    #Home #img1 {
+        width: 260px;
+        height: 186px;
+    }
+    #Home #home {
+        padding-top: 10%;
+    }
+}
+@media (max-width: 767px) {
+    #Home #intro {
+        width: 50ch;
+        max-width: 80vw;
+    }
+    #Home #img1 {
+        width: 260px;
+        height: 186px;
+        margin: 15% auto;
+    }
+    #Home #home {
+        padding-top: 10%;
+    }
+    #Home button {
+        padding: 1em 1.5em;
+    }
+}
