@@ -52,7 +52,6 @@ const Header = () => {
                         <BottomNavigationAction label="Skills" id={"nav_skills"} onClick={() => handleNavigation('/skills')} />
                         <BottomNavigationAction label="Portfolio" id={"nav_portfolio"} onClick={() => handleNavigation('/portfolio')} />
                         <BottomNavigationAction label="Contact" id={"nav_contact"} onClick={() => handleNavigation('/contact')}/>
-                        <BottomNavigationAction label="HW5" id={"nav_hw5"} onClick={() => handleNavigation('/extracredit')}/>
                     </BottomNavigation>
                 </Box>
             </div>

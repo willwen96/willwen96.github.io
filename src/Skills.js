@@ -20,20 +20,20 @@ function Skills() {
                         <p> Vue </p> <br /> <p> 1 Year <br /> 1 Project </p>
                     </section>
                     <section>
+                        <img src={process.env.PUBLIC_URL + "/react.svg"} alt="React icon" />
+                        <p> React </p> <br /> <p> 1 Year <br /> 2 Projects </p>
+                    </section>
+                    <section>
                         <img src={process.env.PUBLIC_URL + "/node.svg"} alt="Node.js icon" />
-                        <p> Node.js </p> <br /> <p> 1 Year <br /> 1 Project </p>
+                        <p> Node.js </p> <br /> <p> 2 Years <br /> 2 Projects </p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/javascript.svg"} alt="Javascript icon" />
                         <p> JavaScript </p> <br /> <p> 2 Years <br /> 3 Projects </p>
                     </section>
-                    <section>
+                    <section className="last_row">
                         <img src={process.env.PUBLIC_URL + "/html.svg"} alt="HTML icon" />
                         <p> HTML </p> <br /> <p> 2 Years <br /> 3 Projects </p>
-                    </section>
-                    <section className="last_row">
-                        <img src={process.env.PUBLIC_URL + "/css.svg"} alt="CSS icon" />
-                        <p> CSS </p> <br /> <p> 2 Years <br /> 3 Projects </p>
                     </section>
                 </div>
                 <hr />
@@ -45,11 +45,11 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/python.svg"} alt="Python icon" />
-                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Numpy, Pandas</p>
+                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Numpy, AI</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/cpp_logo.svg"} alt="C/C++ icon" />
-                        <p> C/C++ </p> <br /> <p> 2 Years <br /> Projects: Algorithms, File Compression</p>
+                        <p> C/C++ </p> <br /> <p> 3 Years <br /> Projects: Algorithms, File Compression</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/spring.svg"} alt="Spring icon" />

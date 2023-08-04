@@ -12,7 +12,7 @@ function Home () {
 
     useEffect(() => {
         const audio = document.getElementById('audio');
-        audio.volume = 0.2;
+        audio.volume = 0.1;
     }, []);
 
     return (
@@ -24,17 +24,18 @@ function Home () {
                 <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="home" className="flex_row wrapper">
-                <img id="img1" src={process.env.PUBLIC_URL + '/my_photo.png'} alt="Me drinking water" width="400" height="324"/>
+                <img id="img1" src={process.env.PUBLIC_URL + '/my_photo.JPG'} alt="Me drinking water" width="400" height="267"/>
                 <aside style={{ margin: 'auto' }}>
                     <h1 id="title">Hi 👋🏻 I am Junhui (Will) Wen</h1>
                     <span id="intro">
-                        I am a senior at UC San Diego double majoring in Computer Science and Applied Mathematics. I have a strong
-                        interest in Software Design as well as Human Computer Interaction. Currently, I am a Tech Lead at Chinese
-                        Computer Community at UC San Diego.
+                        As a recent graduate from UC San Diego with B.S. degrees in Computer Science and Applied
+                        Mathematics, I am passionate about Software Development and have a keen interest in AI/ML.
+                        During my time at the university, I served as a Tech Lead for the Chinese Computer Community,
+                        honing my leadership and technical skills.
                         <br /><br />
-                        Having four-year experience in Computer Science, I am eager to better the society as a future software
-                        engineer or full stack developer with my acute sense in problem-solving, strong self-management and
-                        efficiency.
+                        Having four-year experience in Computer Science, I am eager to leverage my academic background
+                        and practical experience to contribute meaningfully to the field of software development and
+                        artificial intelligence.
                       </span>
                     <div id="icons">
                         <a href="https://www.linkedin.com/in/junhui-wen-73141421a/">

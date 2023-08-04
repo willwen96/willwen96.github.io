@@ -6,7 +6,6 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
-import ExtraCredit from "./ExtraCredit";
 
 function App() {
     useEffect(() => {
@@ -81,7 +80,6 @@ function App() {
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/extracredit" element={<ExtraCredit />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
