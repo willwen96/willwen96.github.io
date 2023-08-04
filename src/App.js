@@ -3,6 +3,9 @@ import Skills from "./Skills";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import React, { useEffect } from "react";
+import ReactGA from 'react-ga';
+import FastClick from 'fastclick';
+
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
@@ -69,6 +72,15 @@ function App() {
         };
 
         initMobileMenu();
+    }, []);
+
+    useEffect(() => {
+        // Initialize Google Analytics with your tracking ID
+        ReactGA.initialize('G-153GKETWX1');
+        // Set the initial page view. Replace "/home" with your default page path.
+        ReactGA.pageview('/home');
+
+        FastClick.attach(document.body);
     }, []);
 
     return (

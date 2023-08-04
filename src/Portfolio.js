@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import './portfolio.css';
 import './Effect';
 
 function Portfolio() {
+    const location = useLocation();
+
+    useEffect(() => {
+        // Track the page view when the component is mounted
+        ReactGA.pageview(location.pathname);
+    }, [location.pathname]);
+
     return (
         <main id="Portfolio">
             <nav id="mobile_menu">
