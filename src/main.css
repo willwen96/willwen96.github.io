@@ -170,8 +170,8 @@ footer>p {
     }
     #toggle {
         display: block;
-        /*width: 100vw;*/
-        padding-right: 10%;
+        width: 100%;
+        /*padding-right: 10%;*/
     }
     header {
         position: fixed;
@@ -212,7 +212,7 @@ footer>p {
     }
     #top-line {
         position: absolute;
-        top: 0px;
+        top: 0;
         left: 20px;
         width: 14px;
         height: 3px;

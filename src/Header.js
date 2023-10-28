@@ -33,7 +33,7 @@ const Header = () => {
             <div style={{ display: "flex", flexDirection: "row" }}>
                 <div id="toggle">
                     <section id="icon"
-                        style={{ position: "relative", float: "right", height: "19px", width: "24px" }}
+                        style={{ position: "relative", float: "right", height: "19px", width: "50px", paddingRight: "15px" }}
                     >
                         <span id="top-line"></span>
                         <span id="mid-line"></span>
