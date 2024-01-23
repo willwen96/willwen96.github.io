@@ -22,7 +22,7 @@ function Portfolio() {
                 <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="main_page" className="wrapper">
-                <h1>My Works</h1>
+                <h1>My Portfolio</h1>
                 <section className="work">
                     <details open>
                         <summary><strong>CyberArch Warehouse Intern</strong></summary>
@@ -49,7 +49,7 @@ function Portfolio() {
                 <section className="work">
                     <details open style={{width: '100%'}}>
                         <summary><strong>Snap Map</strong></summary>
-                        <p>Aims to inspire wanderlust, foster meaningful connections, and create a global community of passionate travelers.</p><br/>
+                        <p>A mobile app that aims to inspire wanderlust, foster meaningful connections, and create a global community of passionate travelers.</p><br/>
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
                             <p style={{width: "fit-content"}}><b>Role: </b>Product Manager & Tech Lead</p>
                             <p><b>Tools:</b> React Native, MongoDB, Netlify, AWS, Ably</p>
@@ -60,12 +60,13 @@ function Portfolio() {
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3"/>
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4"/>
                         </section>
+                        <i>Fig. 1 - Medium-fidelity prototypes with full functions implemented</i>
                     </details>
                 </section>
                 <section className="work">
                     <details open>
                         <summary><strong>Goal Tritons</strong></summary>
-                        <p>Highly accessible & integrated informational website for career-finding among UCSD students</p><br/><br/>
+                        <p>A highly accessible & integrated informational website for career-finding among UCSD students</p><br/><br/>
                         {/* <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="Goal Tritons Logo" style="position: relative; display: inline-block; margin-bottom: 1rem"><br> */}
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
@@ -84,7 +85,7 @@ function Portfolio() {
                         </div>
                         <figure>
                             <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" />
-                            <figcaption><i>Fig. 1 - One of the wireframes we drew</i></figcaption>
+                            <figcaption><i>Fig. 2 - One of the wireframes we drew</i></figcaption>
                         </figure>
                     </details>
                 </section>
