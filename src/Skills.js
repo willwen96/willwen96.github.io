@@ -26,7 +26,7 @@ function Skills() {
                 <div className="grid">
                     <section>
                         <img src={process.env.PUBLIC_URL + "/vue.svg"} alt="vue icon" />
-                        <p> Vue </p> <br /> <p> 2 Years <br /> 1 Project </p>
+                        <p> Vue </p> <br /> <p> 1 Year <br /> 1 Project </p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/react.svg"} alt="React icon" />
@@ -42,7 +42,7 @@ function Skills() {
                     </section>
                     <section className="last_row">
                         <img src={process.env.PUBLIC_URL + "/html.svg"} alt="HTML icon" />
-                        <p> HTML </p> <br /> <p> 3 Years <br /> 3 Projects </p>
+                        <p> HTML </p> <br /> <p> 2 Years <br /> 3 Projects </p>
                     </section>
                 </div>
                 <hr />
@@ -54,7 +54,7 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/python.svg"} alt="Python icon" />
-                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, TensorFlow, AI</p>
+                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Numpy, AI</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/cpp_logo.svg"} alt="C/C++ icon" />
@@ -78,7 +78,7 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/aws.svg"} alt="AWS icon" loading="lazy"/>
-                        <p> AWS </p> <br /> <p> 2 Years <br /> Services: S3, Route 53</p>
+                        <p> AWS </p> <br /> <p> 1 Year <br /> Services: S3, Route 53</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/linux.svg"} alt="Linux icon" loading="lazy"/>
