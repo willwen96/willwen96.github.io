@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.cc7590bd.css",
+    "main.js": "/homepage/static/js/main.7d776db5.js",
+    "static/media/WorkSans-Light.woff": "/homepage/static/media/WorkSans-Light.cfd07eb9337c525b3c37.woff",
+    "index.html": "/homepage/index.html",
+    "main.cc7590bd.css.map": "/homepage/static/css/main.cc7590bd.css.map",
+    "main.7d776db5.js.map": "/homepage/static/js/main.7d776db5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc7590bd.css",
+    "static/js/main.7d776db5.js"
+  ]
+}
