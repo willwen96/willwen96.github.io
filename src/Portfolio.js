@@ -22,19 +22,21 @@ function Portfolio() {
                 <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="main_page" className="wrapper">
-                <h1>My Works</h1>
+                <h1>My Portfolio</h1>
                 <section className="work">
                     <details open>
                         <summary><strong>CyberArch Warehouse Intern</strong></summary>
-                        <em>Provide a sustainable approach to preserve knowledge of endangered cultural heritage sites
-                            via virtual and augmented reality</em><br/><br/>
+                        <p>Provide a sustainable approach to preserve knowledge of endangered cultural heritage sites
+                            via virtual and augmented reality.</p><br/>
                         {/* <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="Goal Tritons Logo" style="position: relative; display: inline-block; margin-bottom: 1rem"><br> */}
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
-                            <p style={{width: "fit-content"}}><b>Role:</b>Plugins Developer</p>
+                            <p style={{width: "fit-content"}}><b>Role: </b>Plugins Developer</p>
                             <p><b>Tools:</b> Unreal Engine 5, C++, React, Node.js</p>
                         </div>
                         <section className={"flex_row"} style={{display: 'flex'}}>
-                            <img style={{flex: 1, margin: "auto 50px"}} src={process.env.PUBLIC_URL + "/QiDemo.jpeg"} alt="Demo Day Report on UC San Diego Today"/>
+                            <a style={{width: '360px'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank">
+                                <img src={process.env.PUBLIC_URL + "/QiDemo.jpeg"} alt="Demo Day Report on UC San Diego Today"/>
+                            </a>
                             <a style={{flex: 6, alignSelf: 'center', color: '#0077BE'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank">
                                 <p className={'report'}>
                                     UC San Diego Today: Students Showcase Their Work in Augmented and Virtual Reality
@@ -45,9 +47,26 @@ function Portfolio() {
                     </details>
                 </section>
                 <section className="work">
+                    <details open style={{width: '100%'}}>
+                        <summary><strong>Snap Map</strong></summary>
+                        <p>A mobile app that aims to inspire wanderlust, foster meaningful connections, and create a global community of passionate travelers.</p><br/>
+                        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
+                            <p style={{width: "fit-content"}}><b>Role: </b>Product Manager & Tech Lead</p>
+                            <p><b>Tools:</b> React Native, MongoDB, Netlify, AWS, Ably</p>
+                        </div>
+                        <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo1.png"} alt="demo1"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo2.png"} alt="demo2"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4"/>
+                        </section>
+                        <i>Fig. 1 - Medium-fidelity prototypes with full functions implemented</i>
+                    </details>
+                </section>
+                <section className="work">
                     <details open>
                         <summary><strong>Goal Tritons</strong></summary>
-                        <em>Highly accessible & integrated informational website for career-finding among UCSD students</em><br/><br/>
+                        <p>A highly accessible & integrated informational website for career-finding among UCSD students</p><br/><br/>
                         {/* <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="Goal Tritons Logo" style="position: relative; display: inline-block; margin-bottom: 1rem"><br> */}
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
@@ -59,14 +78,14 @@ function Portfolio() {
                 <section className="work">
                     <details>
                         <summary><strong>Birds of a Feather</strong></summary>
-                        <em>Concise Android App for connecting students with others who take the same courses as them</em><br/><br/>
+                        <p>Concise Android App for connecting students with others who take the same courses as them</p><br/><br/>
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
                             <p style={{width: "fit-content"}}><b>Role:</b> Co-leader </p>
                             <p><b>Tools:</b> Java, Android Studio, Robolectric</p>
                         </div>
                         <figure>
                             <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" />
-                            <figcaption><i>Fig. 1 - One of the wireframes we drew</i></figcaption>
+                            <figcaption><i>Fig. 2 - One of the wireframes we drew</i></figcaption>
                         </figure>
                     </details>
                 </section>
