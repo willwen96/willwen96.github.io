@@ -50,11 +50,11 @@ function Skills() {
                 <div className="grid">
                     <section>
                         <img src={process.env.PUBLIC_URL + "/java.svg"} alt="Java icon" />
-                        <p> Java </p> <br /> <p> 5 Years <br /> Projects: JDBC, Web, Android, GUI</p>
+                        <p> Java </p> <br /> <p> 5 Years <br /> Projects: JDBC, Android, Spring</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/python.svg"} alt="Python icon" />
-                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Numpy, AI</p>
+                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Tensorflow, AI</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/cpp_logo.svg"} alt="C/C++ icon" />
