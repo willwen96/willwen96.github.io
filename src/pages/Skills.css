@@ -1,0 +1,164 @@
+.skill-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 14px;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.skill-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--accent-soft);
+}
+
+.skill-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+    padding: 6px;
+    background: var(--surface-soft);
+    border-radius: 12px;
+    box-sizing: content-box;
+}
+
+.skill-card h3 {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.skill-card .meta {
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+}
+
+/* ---------- Rubik's ---------- */
+
+.cube-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 20px;
+    align-items: start;
+}
+
+.table-card {
+    overflow-x: auto;
+    padding: 8px;
+}
+
+.records {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.records th,
+.records td {
+    padding: 12px 14px;
+    text-align: right;
+}
+
+.records th:first-child,
+.records td:first-child {
+    text-align: left;
+}
+
+.records thead tr:first-child th {
+    color: var(--text);
+    font-weight: 600;
+    text-align: center;
+}
+
+.records thead tr:first-child th:first-child {
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.records thead tr:last-child th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.78rem;
+    border-bottom: 1px solid var(--line);
+}
+
+.records abbr {
+    text-decoration: none;
+}
+
+.records tbody tr:not(:last-child) td {
+    border-bottom: 1px solid var(--line);
+}
+
+.records tbody tr:hover td {
+    background: var(--surface-soft);
+}
+
+.records .event {
+    font-weight: 600;
+}
+
+.records .time {
+    color: var(--accent-strong);
+    font-weight: 600;
+}
+
+.records td:nth-child(6),
+.records thead tr:last-child th:nth-child(5) {
+    border-left: 1px solid var(--line);
+}
+
+.video-card {
+    margin: 0;
+    padding: 10px;
+}
+
+.video-card video {
+    width: 100%;
+    border-radius: 12px;
+    background: #000;
+}
+
+.video-card figcaption {
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 10px 0 4px;
+}
+
+@media (max-width: 900px) {
+    .cube-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .video-card {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .skill-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 14px;
+    }
+}
