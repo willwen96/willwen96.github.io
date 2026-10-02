@@ -19,7 +19,6 @@ function Portfolio() {
                 <a href="/" className="nav">Home</a>
                 <a href="/skills" className="nav">Skills</a>
                 <a href="/portfolio" className="cur_nav">Portfolio</a>
-                <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="main_page" className="wrapper">
                 <h1>My Portfolio</h1>
@@ -34,10 +33,10 @@ function Portfolio() {
                             <p><b>Tools:</b> Unreal Engine 5, C++, React, Node.js</p>
                         </div>
                         <section className={"flex_row"} style={{display: 'flex'}}>
-                            <a style={{width: '360px'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank">
+                            <a style={{width: '360px'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank" rel="noreferrer">
                                 <img src={process.env.PUBLIC_URL + "/QiDemo.jpeg"} alt="Demo Day Report on UC San Diego Today"/>
                             </a>
-                            <a style={{flex: 6, alignSelf: 'center', color: '#0077BE'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank">
+                            <a style={{flex: 6, alignSelf: 'center', color: '#0077BE'}} href="https://today.ucsd.edu/story/students-showcase-their-work-in-augmented-and-virtual-reality-at-the-qualcomm-institute" target="_blank" rel="noreferrer">
                                 <p className={'report'}>
                                     UC San Diego Today: Students Showcase Their Work in Augmented and Virtual Reality
                                     at the Qualcomm Institute
@@ -89,7 +88,7 @@ function Portfolio() {
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
                             <p><b>Tools:</b> Vue, AWS, SpringBoot, Node.js</p>
                         </div>
-                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="A computer screen showing Goal Tritons' Home Page" width="680px" height="510px" style={{marginLeft: "50px"}}/></a>
+                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank" rel="noreferrer"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="A computer screen showing Goal Tritons' Home Page" width="680px" height="510px" style={{marginLeft: "50px"}}/></a>
                     </details>
                 </section>
                 <section className="work">

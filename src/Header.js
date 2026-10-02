@@ -17,8 +17,6 @@ const Header = () => {
             setValue(1);
         } else if (location.pathname === "/portfolio") {
             setValue(2);
-        } else if (location.pathname === "/contact") {
-            setValue(3);
         }
     }, [location.pathname]);
 
@@ -51,7 +49,6 @@ const Header = () => {
                         <BottomNavigationAction label="Home" id={"nav_home"} onClick={() => handleNavigation('/')} />
                         <BottomNavigationAction label="Skills" id={"nav_skills"} onClick={() => handleNavigation('/skills')} />
                         <BottomNavigationAction label="Portfolio" id={"nav_portfolio"} onClick={() => handleNavigation('/portfolio')} />
-                        <BottomNavigationAction label="Contact" id={"nav_contact"} onClick={() => handleNavigation('/contact')}/>
                     </BottomNavigation>
                 </Box>
             </div>

@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
-import Contact from "./Contact";
 import React, { useEffect } from "react";
 import ReactGA from 'react-ga';
 import FastClick from 'fastclick';
@@ -91,7 +90,6 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </BrowserRouter>
             <Footer />

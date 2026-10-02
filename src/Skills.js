@@ -18,7 +18,6 @@ function Skills() {
                 <a href="/" className="nav">Home</a>
                 <a href="/skills" className="cur_nav">Skills</a>
                 <a href="/portfolio" className="nav">Portfolio</a>
-                <a href="/contact" className="nav">Contact</a>
             </nav>
             <div id="main_page" className="wrapper">
                 <h1>My Skills</h1>
