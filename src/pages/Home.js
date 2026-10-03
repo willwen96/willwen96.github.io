@@ -28,15 +28,13 @@ function Home() {
                     I'm Junhui <span className="soft">(Will)</span> Wen
                 </h1>
                 <p className="lead">
-                    As a recent graduate from UC San Diego with B.S. degrees in Computer Science and Applied
-                    Mathematics, I am passionate about Software Development and have a keen interest in AI/ML.
-                    During my time at the university, I served as a Tech Lead for the Chinese Computer Community,
-                    honing my leadership and technical skills.
+                As a Software Engineer at Google with B.S. degrees in Computer Science and Applied Mathematics from UC San Diego,
+                I am driven by a deep passion for software engineering and modern tech like AI/ML.
                 </p>
                 <p className="lead">
-                    Having four-year experience in Computer Science, I am eager to leverage my academic background
-                    and practical experience to contribute meaningfully to the field of software development and
-                    artificial intelligence.
+                At Google, I focus on delivering impact—bringing the latest features to users while ensuring high system reliability
+                and stability. Building on my background as a former Tech Lead for UCSD’s Chinese Computer Community, I thrive on taking
+                complex technical challenges from concept to production and continuously refining my engineering practice.
                 </p>
 
                 <div className="hero-actions">
