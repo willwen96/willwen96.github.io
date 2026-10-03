@@ -24,3 +24,6 @@ yarn-error.log*
 
 # IDE
 .idea/
+
+# gallery originals (full-size photos stay local; run `npm run gallery`)
+/photos

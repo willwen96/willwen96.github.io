@@ -1,5 +1,16 @@
 https://velvety-cascaron-54d7c4.netlify.app
 
+## Gallery photos
+
+The Gallery page (`/gallery`) shows web-sized copies of photos; full-size originals are never committed.
+
+1. Put your original photos (JPEG, PNG, HEIC, ...) in a `photos/` folder at the repo root. It is gitignored.
+2. Run `npm run gallery`. For each photo it writes a 600px-tall thumbnail to `public/gallery/thumb/` and a 2400px (long edge) version to `public/gallery/full/`, both WebP, and updates `src/data/gallery.json`. EXIF rotation is applied and metadata such as GPS location is stripped.
+3. Optionally fill in `"title"` for a photo in `src/data/gallery.json` (used as alt text); re-running the script keeps it.
+4. Commit `public/gallery/` and `src/data/gallery.json`.
+
+Photos are shown in filename order, so rename files to reorder them. Re-runs only process new or changed photos (`npm run gallery -- --force` redoes all). To remove a photo, delete its entry in `gallery.json` and its two `.webp` files.
+
 ## Available Scripts
 
 In the project directory, you can run:
