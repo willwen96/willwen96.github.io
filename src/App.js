@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
+import Gallery from './pages/Gallery';
 
 ReactGA.initialize('G-153GKETWX1');
 
@@ -31,6 +32,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/skills" element={<Skills />} />
                         <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/gallery" element={<Gallery />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </main>

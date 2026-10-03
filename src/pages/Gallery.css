@@ -1,0 +1,39 @@
+/* Justified rows: sizes come from justify() in Gallery.js, keep the gap in sync with GAP there. */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 16px;
+}
+
+.photo {
+    display: block;
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+    background: var(--surface-soft);
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.photo:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-2px);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.photo:hover img {
+    transform: scale(1.03);
+}
+
+.photo-empty {
+    margin-top: 16px;
+    padding: 32px;
+    color: var(--muted);
+    text-align: center;
+}

@@ -5,6 +5,7 @@ const links = [
     { to: '/', label: 'Home' },
     { to: '/skills', label: 'Skills' },
     { to: '/portfolio', label: 'Portfolio' },
+    { to: '/gallery', label: 'Gallery' },
 ];
 
 function Header() {
