@@ -15,29 +15,21 @@ export const projects = [
         },
     },
     {
-        title: 'Snap Map',
+        title: 'MemoHub',
         description:
-            'A mobile app that aims to inspire wanderlust, foster meaningful connections, and create a global community of passionate travelers.',
+            'Provide users with a simple, intuitive, and efficient platform to collect, categorize, and manage their favorite items, ensuring they can easily find these items when needed.',
         role: 'Product Manager & Tech Lead',
-        tools: ['React Native', 'MongoDB', 'Netlify', 'AWS', 'Ably'],
+        tools: ['Swift', 'SwiftUI', 'Firebase', 'UIKit'],
         gallery: {
-            images: ['map_demo1.png', 'map_demo2.png', 'map_demo3.png', 'map_demo4.png'],
-            caption: 'Medium-fidelity prototypes with full functions implemented',
+            images: ['memohub1.png', 'memohub2.png', 'memohub3.png', 'memohub4.png'],
+            caption: 'Previews and Screenshots',
         },
-    },
-    {
-        title: 'Goal Tritons',
-        description: 'A highly accessible & integrated informational website for career-finding among UCSD students.',
-        role: 'Tech Lead',
-        tools: ['Vue', 'AWS', 'Spring Boot', 'Node.js'],
-        link: 'https://dynamic-crisp-4efd82.netlify.app/',
-        image: { src: 'GT_home.svg', alt: "Goal Tritons' home page on a desktop screen" },
-    },
+    },    
     {
         title: 'Birds of a Feather',
-        description: 'Concise Android app for connecting students with others who take the same courses as them.',
+        description: 'A concise Android class project for connecting students with others who take the same courses as them.',
         role: 'Co-leader',
         tools: ['Java', 'Android Studio', 'Robolectric'],
-        image: { src: 'BOF.png', alt: 'Birds of a Feather wireframe', caption: 'One of the wireframes we drew' },
+        image: { src: 'BOF.png', alt: 'Birds of a Feather wireframe', caption: 'Wireframes' },
     },
 ];
